@@ -29,7 +29,7 @@ log_keys() {
 
 # Check if the log file exists, if not, create it
 if [ ! -f "$log_file" ]; then
-    # Create an empty file using echo command
+    # Create an empty file using touch command
     touch "$log_file"
 fi
 
